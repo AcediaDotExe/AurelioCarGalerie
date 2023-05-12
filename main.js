@@ -1,9 +1,9 @@
-import {getScene} from "./scene.js";
-import {getRenderer, setCameraPosition} from "./render.js";
-import {setModel} from "./components/carModel/model.js";
+import {getScene} from "./src/scene.js";
+import {getRenderer, setCameraPosition} from "./src/render.js";
+import {setModel} from "./src/components/carModel/model.js";
 import * as THREE from "three";
-import {resizeFix} from "./components/utils/resizeFix.js";
-import {getScrollAnimationPlay} from "./components/scrollingAnimation/animations.js";
+import {resizeFix} from "./src/components/utils/resizeFix.js";
+import {getScrollAnimationPlay} from "./src/components/scrollingAnimation/animations.js";
 
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
